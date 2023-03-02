@@ -28,7 +28,6 @@ for (let i = 1; i < numbers.length; ++i) {
 }
 console.log(`Minimum value is ${min}`)
 
-
 /* пʼять # */ 
 var str = " ";
 var symbol = "#";
