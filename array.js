@@ -29,9 +29,9 @@ for (let i = 1; i < numbers.length; ++i) {
 console.log(`Minimum value is ${min}`)
 
 /* пʼять # */ 
-var str = " ";
-var symbol = "#";
-for (var i = 0; i < 5; i++) {
+let str = " ";
+let symbol = "#";
+for (let i = 0; i < 5; i++) {
   str += symbol;
   console.log(str);
 }
