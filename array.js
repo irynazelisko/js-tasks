@@ -12,7 +12,7 @@ for (let i = 1; i < array.length; ++i) {
 return max;
 
 }
-console.log(findMaxValue([2,34,45,10,3,99,5,44,11,333,4576,29]))
+console.log(findMaxValue([2,34,45,10,3,59,5,44,11,333,4576,29]))
 
 
 /* мінімальне значення */
@@ -29,5 +29,5 @@ for (let i = 1; i < array.length; ++i) {
 return min;
 
 }
-console.log(findMinValue([-1,34,54,55,21,23,98,-18,4,1,2]))
+console.log(findMinValue([-1,34,54,55,21,43,98,-18,4,1,2]))
 
