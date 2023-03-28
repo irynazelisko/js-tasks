@@ -3,7 +3,8 @@
 
 function Accumulator(initialValue) {
    this.value = initialValue;
-    
+}
+
  Accumulator.prototype.increment = function() {
     this.value++;
     console.log(`${this.value}`)
@@ -14,7 +15,7 @@ function Accumulator(initialValue) {
     this.value--;
     console.log(`${this.value}`)
  }
-  }
+  
 
   const acc = new Accumulator(24);
   acc.increment();
@@ -25,10 +26,11 @@ function Accumulator(initialValue) {
 
   function CancelableAccumulator(initialValue) {
      Accumulator.call(this, initialValue)
+     this.initialValue = initialValue;
      
 
   this.clear = function() {
-      this.value = initialValue;
+      this.value = this.initialValue;
       console.log(`${this.value}`)
       }
 
